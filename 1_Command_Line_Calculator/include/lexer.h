@@ -21,5 +21,4 @@ typedef struct{
 
 Token get_next_token(const char **input);
 
-
 #endif
