@@ -8,6 +8,7 @@ void start_game(void){
     int guess;
     int attempts = 0;
 
+    #seed a random number
     srand(time(NULL));
 
     secretNumber = (rand() % 100) + 1;
